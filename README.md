@@ -3,15 +3,15 @@
 ## Overview
 
 This notebook is currently under development to provide an integrated workflow for running **EnergyPATHWAYS (EP)**
-electricity demand scenarios, inspecting deterministic outputs, and applying
-probabilistic demand analysis.
+electricity demand scenarios, inspecting deterministic outputs, and conducting
+probabilistic demand analyses.
 
 It supports:
 
 - Scenario execution
 - Output validation and diagnostics
 - Probabilistic demand shape generation
-- AEMO-consistent POE maximum demand estimation
+- POE maximum demand estimation
 - Exploratory demand-structure analysis
 
 
@@ -40,11 +40,10 @@ Paths are currently hard-coded for a local EP development environment.
 
 ### Cell 1 — Scenario Execution
 Runs multiple EP scenarios from Python, replicating `start_runs.sh`.
-Scenarios share a single shape engine run for efficiency and reproducibility.
 
 ### Cell 2 — Annual Electricity Demand
 Aggregates final-energy outputs to total annual electricity demand and plots time
-series.
+series. 
 
 ### Cell 3 — Hourly Subsector Profiles
 Plots full-year hourly electricity profiles for selected subsectors, years, and
@@ -52,13 +51,14 @@ regions.
 
 ### Cell 4 — Single-Day Hourly Diagnostics
 Plots a single weather-day hourly profile for a modeled year.
-Flags a suspected discrepancy between EP input and output shapes.
+NB. There is a suspected discrepancy between EP input and output shapes.
 
 ### Cell 5 — Subsector Demand Breakdown
 Aggregates electricity demand by subsector and year to show structural composition.
 
 ### Cell 6 — Average Hourly Shapes by Subsector
 Computes and plots mean intraday electricity profiles for each subsector.
+NB. There is a suspected discrepancy between EP input and output shapes.
 
 ### Cell 7 — Residential Shapes by GAU and Year
 Overlays residential hourly shapes across years for each region.
@@ -75,7 +75,7 @@ Forms the basis for comparison with AEMO projections.
 ### Cell 10 — Hourly POE Shape Generation
 Generates probabilistic hourly demand envelopes (P10/P50/P90) via stochastic
 weather simulation.
-Percentiles are computed hour-by-hour, not over annual maxima.
+Percentiles are computed hour-by-hour, not just over annual maxima.
 
 ### Cell 11 — Deterministic vs POE Shape Comparison
 Smooths and overlays original shapes with POE envelopes to validate construction.
