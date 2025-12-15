@@ -1,4 +1,4 @@
-# EnergyPATHWAYS Scenario Execution, Diagnostics, and Probabilistic Demand Analysis
+# EnergyPATHWAYS Scenario Notebook
 
 ## Overview
 
