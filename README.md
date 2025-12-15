@@ -21,7 +21,7 @@ It supports:
 
 The notebook assumes a standard EP layout:
 
-
+```
 EnergyPATHWAYS/
 ├─ ep_runs/my_scenario/reference/demand_outputs/
 │ ├─ d_energy.csv.gz
@@ -30,6 +30,7 @@ EnergyPATHWAYS/
 │ ├─ *.csv
 │ ├─ poe_shapes/
 │ └─ poe_maxima/
+```
 
 Paths are currently hard-coded for a local EP development environment.
 
