@@ -72,15 +72,15 @@ formats.
 Aggregates and plots annual regional electricity demand (converted to GWh).
 Forms the basis for comparison with AEMO projections.
 
-### Cell 10 — Hourly POE Shape Generation
+### Cell 10 — Hourly POE Shape Generation (Under Development)
 Generates probabilistic hourly demand envelopes (P10/P50/P90) via stochastic
 weather simulation.
 Percentiles are computed hour-by-hour, not just over annual maxima.
 
-### Cell 11 — Deterministic vs POE Shape Comparison
+### Cell 11 — Deterministic vs POE Shape Comparison (Under Development)
 Smooths and overlays original shapes with POE envelopes to validate construction.
 
-### Cell 12 — AEMO-Style POE Maximum Demand
+### Cell 12 — AEMO-Style POE Maximum Demand (Under Development)
 Computes true POE maximum demand metrics by simulating many weather-years and
 extracting one maximum per year.
 This aligns exactly with AEMO’s POE definition.
