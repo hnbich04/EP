@@ -51,14 +51,14 @@ regions.
 
 ### Cell 4 — Single-Day Hourly Diagnostics
 Plots a single weather-day hourly profile for a modeled year.
-NB. There is a suspected discrepancy between EP input and output shapes.
+NB. Analyses need to be redone with timezones correctly set for each region.
 
 ### Cell 5 — Subsector Demand Breakdown
 Aggregates electricity demand by subsector and year to show structural composition.
 
 ### Cell 6 — Average Hourly Shapes by Subsector
 Computes and plots mean intraday electricity profiles for each subsector.
-NB. There is a suspected discrepancy between EP input and output shapes.
+NB. Analyses need to be redone with timezones correctly set for each region.
 
 ### Cell 7 — Residential Shapes by GAU and Year
 Overlays residential hourly shapes across years for each region.
