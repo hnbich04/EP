@@ -81,13 +81,12 @@ Percentiles are computed hour-by-hour, not just over annual maxima.
 Smooths and overlays original shapes with POE envelopes to validate construction.
 
 ### Cell 12 — AEMO-Style POE Maximum Demand (Under Development)
-Computes true POE maximum demand metrics by simulating many weather-years and
-extracting one maximum per year.
-This aligns exactly with AEMO’s POE definition.
+Initial attempt to compute POE maximum demand metrics by simulating many weather-years and
+extracting one maximum per year. Requires modification.
 
 ### Cell 13 — Daily Shape Clustering
 Applies K-means clustering to daily 24-hour input shapes to identify recurring
-demand regimes and their seasonal behaviour.
+demand patterns and their seasonal behaviour.
 
 ### Cell 14 — Load Factor Analysis
 Computes annual electricity load factors (average / peak) and plots trajectories
