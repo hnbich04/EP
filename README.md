@@ -75,14 +75,14 @@ Forms the basis for comparison with AEMO projections.
 ### Cell 10 — Hourly POE Shape Generation (Under Development)
 Generates probabilistic hourly demand envelopes (P10/P50/P90) via stochastic
 weather simulation.
-Percentiles are computed hour-by-hour, not just over annual maxima.
+Percentiles are computed hour-by-hour, not just over annual maxima. Currently being tested on input data.
 
 ### Cell 11 — Deterministic vs POE Shape Comparison (Under Development)
-Smooths and overlays original shapes with POE envelopes to validate construction.
+Smooths and overlays original shapes with POE envelopes to validate construction. Currently being tested on input data.
 
 ### Cell 12 — AEMO-Style POE Maximum Demand (Under Development)
 Initial attempt to compute POE maximum demand metrics by simulating many weather-years and
-extracting one maximum per year. Requires modification.
+extracting one maximum per year. Requires modification. Currently being tested on input data.
 
 ### Cell 13 — Daily Shape Clustering
 Applies K-means clustering to daily 24-hour input shapes to identify recurring
