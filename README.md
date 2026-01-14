@@ -14,6 +14,9 @@ It supports:
 - POE maximum demand estimation
 - Exploratory demand-structure analysis
 
+  It uses the Net Zero Australia data available at:
+  - https://www.dropbox.com/scl/fi/sffsvql1ks1l5tshwl5j5/Australia_EP_database.zip?rlkey=769o9b59byhoj5kelw4ae5hhs&e=3&dl=0
+
 
 ---
 
