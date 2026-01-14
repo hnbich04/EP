@@ -18,8 +18,10 @@ It supports:
 It uses the Net Zero Australia data available at:
   - https://www.dropbox.com/scl/fi/sffsvql1ks1l5tshwl5j5/Australia_EP_database.zip?rlkey=769o9b59byhoj5kelw4ae5hhs&e=3&dl=0
   - https://doi.org/10.48610/e32f6e5
+
 EP user guide:
  - https://energypathways.readthedocs.io/en/latest/user_guide.html
+
 EP GitHub:
  - https://github.com/EvolvedEnergyResearch/EnergyPATHWAYS
 
